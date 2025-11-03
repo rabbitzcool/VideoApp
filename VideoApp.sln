@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp.Web", "src\VideoApp.Web\VideoApp.Web.csproj", "{77FDA0DF-A2B8-4CA7-9F9D-6252D2D6FFEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{128F6AF5-CE15-47FB-A694-22AB7193528E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FDA0DF-A2B8-4CA7-9F9D-6252D2D6FFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FDA0DF-A2B8-4CA7-9F9D-6252D2D6FFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FDA0DF-A2B8-4CA7-9F9D-6252D2D6FFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FDA0DF-A2B8-4CA7-9F9D-6252D2D6FFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77FDA0DF-A2B8-4CA7-9F9D-6252D2D6FFEF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B71FAA22-4618-4D5D-B6F6-2C7E7E8964BB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+@{
+    var controller = (string?)ViewContext.RouteData.Values["controller"];
+    var action = (string?)ViewContext.RouteData.Values["action"];
+    var pageId = $"{controller}-{action}";
+}
+<!-- ACTIVE LAYOUT CHECK -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body data-page="@pageId">
+    @RenderBody()
+    <script src="~/lib/jquery/jquery.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

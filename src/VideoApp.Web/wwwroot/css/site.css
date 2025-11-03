@@ -1,0 +1,11 @@
+.video-shell {
+    max-width: 960px;
+}
+
+.video-shell .ratio {
+    max-height: 40vh;
+}
+
+#videoPlayer {
+    object-fit: contain;
+}
